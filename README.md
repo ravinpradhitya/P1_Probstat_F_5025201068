@@ -51,3 +51,39 @@ paste("Nilai rataan tersebut adalah ", miu)
 varian = (1-p)/p^2
 paste("Nilai varian tersebut adalah ", varian)
 ```
+2. Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
+
+A. Peluang terdapat 4 pasien yang sembuh.
+
+```r
+n = 20
+p = 0.2
+x = 4
+  dbinom(x, n, p)
+```
+
+B. Gambarkan grafik histogram berdasarkan kasus tersebut
+
+```r
+set.seed(10)
+n = 20
+p = 0.2
+x = 10000
+  hist(rbinom(x, n, p), 
+       xlab = "Data", ylab = "Frequency",
+       main = "Grafik Histogram", col = 'blue')
+```
+
+C. Nilai Rataan (μ) dan Varian (σ²) dari  Distribusi Binomial.
+
+```r
+n = 20
+p = 0.2
+q = 4
+r = 1 - q
+miu = q * p 
+  paste("Nilai Rataan adalah", miu)
+
+varian = q * p * r
+  paste("varian adalah ", varian)
+```
