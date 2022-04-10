@@ -70,8 +70,7 @@ n = 20
 p = 0.2
 x = 10000
   hist(rbinom(x, n, p), 
-       xlab = "Data", ylab = "Frequency",
-       main = "Grafik Histogram", col = 'blue')
+       xlab = "Data", ylab = "Frequency", main = "Grafik Histogram")
 ```
 
 C. Nilai Rataan (μ) dan Varian (σ²) dari  Distribusi Binomial.
