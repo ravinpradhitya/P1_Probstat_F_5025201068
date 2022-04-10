@@ -69,14 +69,7 @@ Jadi, hasilnya adalah 0.2181994
 
 B. Gambarkan grafik histogram berdasarkan kasus tersebut
 
-```r
-set.seed(10)
-n = 20
-p = 0.2
-x = 10000
-  hist(rbinom(x, n, p), 
-       xlab = "Data", ylab = "Frequency", main = "Grafik Histogram")
-```
+![2b](https://github.com/ravinpradhitya/P1_Probstat_F_5025201068/blob/main/2b.jpg)
 
 C. Nilai Rataan (μ) dan Varian (σ²) dari  Distribusi Binomial.
 
