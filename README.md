@@ -13,6 +13,7 @@ x = 3
 p = 0.2
 dgeom (x, p)
 ```
+Jadi, hasilnya adalah 0.1024
 
 B. Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi
 geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
@@ -23,6 +24,7 @@ p = 0.2
 x = 3
   mean(rgeom(data, p) == x)
 ```
+Jadi, hasilnya adalah random
 
 C. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 
@@ -51,6 +53,8 @@ paste("Nilai rataan tersebut adalah ", miu)
 varian = (1-p)/p^2
 paste("Nilai varian tersebut adalah ", varian)
 ```
+Jadi, hasil nilai rataan tersebut adalah 5 dan varian adalah 20
+
 2. Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
 
 A. Peluang terdapat 4 pasien yang sembuh.
@@ -61,6 +65,7 @@ p = 0.2
 x = 4
   dbinom(x, n, p)
 ```
+Jadi, hasilnya adalah 0.2181994
 
 B. Gambarkan grafik histogram berdasarkan kasus tersebut
 
@@ -86,3 +91,4 @@ miu = q * p
 varian = q * p * r
   paste("varian adalah ", varian)
 ```
+Jadi, hasil nilai rataan adalah 0.8 dan varian adalah 0.64
