@@ -24,7 +24,7 @@ p = 0.2
 x = 3
   mean(rgeom(data, p) == x)
 ```
-Jadi, hasilnya adalah random
+Jadi, hasilnya adalah 0.1043
 
 C. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 
